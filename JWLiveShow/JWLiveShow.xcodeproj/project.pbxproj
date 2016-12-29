@@ -116,6 +116,7 @@
 		B3334B7F1E14A0F200710A7D /* JWLogionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334B7D1E14A0F200710A7D /* JWLogionViewController.m */; };
 		B3334B801E14A0F200710A7D /* JWLogionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3334B7E1E14A0F200710A7D /* JWLogionViewController.xib */; };
 		B3334B821E14A4F200710A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3334B811E14A4F200710A7D /* Assets.xcassets */; };
+		B3334B851E14A9BC00710A7D /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3334B841E14A9BC00710A7D /* IJKMediaFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -359,6 +360,7 @@
 		B3334B7D1E14A0F200710A7D /* JWLogionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWLogionViewController.m; sourceTree = "<group>"; };
 		B3334B7E1E14A0F200710A7D /* JWLogionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWLogionViewController.xib; sourceTree = "<group>"; };
 		B3334B811E14A4F200710A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3334B841E14A9BC00710A7D /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -366,6 +368,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3334B851E14A9BC00710A7D /* IJKMediaFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +459,7 @@
 		B3334A221E13F9C200710A7D /* FrameWork */ = {
 			isa = PBXGroup;
 			children = (
+				B3334B831E14A97A00710A7D /* IJKMediaFramework */,
 				B3334B561E13FF6000710A7D /* NSString */,
 				B3334B4C1E13FECA00710A7D /* UIImage+Color */,
 				B3334B481E13FE8600710A7D /* NSDictionary */,
@@ -927,6 +931,14 @@
 			path = Logion;
 			sourceTree = "<group>";
 		};
+		B3334B831E14A97A00710A7D /* IJKMediaFramework */ = {
+			isa = PBXGroup;
+			children = (
+				B3334B841E14A9BC00710A7D /* IJKMediaFramework.framework */,
+			);
+			path = IJKMediaFramework;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1299,6 +1311,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = CL7JKSS9Z7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JWLiveShow/FrameWork/IJKMediaFramework",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JWLiveShow/JWLiveShowPrefixHeader.pch";
 				INFOPLIST_FILE = JWLiveShow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1315,6 +1331,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = CL7JKSS9Z7;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JWLiveShow/FrameWork/IJKMediaFramework",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JWLiveShow/JWLiveShowPrefixHeader.pch";
 				INFOPLIST_FILE = JWLiveShow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
