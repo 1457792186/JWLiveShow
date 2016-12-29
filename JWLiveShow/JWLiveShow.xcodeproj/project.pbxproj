@@ -9,10 +9,6 @@
 /* Begin PBXBuildFile section */
 		B33349ED1E13F98500710A7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B33349EC1E13F98500710A7D /* main.m */; };
 		B33349F01E13F98500710A7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B33349EF1E13F98500710A7D /* AppDelegate.m */; };
-		B33349F31E13F98500710A7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33349F21E13F98500710A7D /* ViewController.m */; };
-		B33349F61E13F98500710A7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33349F41E13F98500710A7D /* Main.storyboard */; };
-		B33349F81E13F98500710A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33349F71E13F98500710A7D /* Assets.xcassets */; };
-		B33349FB1E13F98500710A7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33349F91E13F98500710A7D /* LaunchScreen.storyboard */; };
 		B3334A061E13F98500710A7D /* JWLiveShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334A051E13F98500710A7D /* JWLiveShowTests.m */; };
 		B3334A111E13F98500710A7D /* JWLiveShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334A101E13F98500710A7D /* JWLiveShowUITests.m */; };
 		B3334A261E13F9DF00710A7D /* JWTools.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334A251E13F9DF00710A7D /* JWTools.m */; };
@@ -107,6 +103,19 @@
 		B3334B551E13FF3B00710A7D /* UIScrollView+JWGifRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334B541E13FF3B00710A7D /* UIScrollView+JWGifRefresh.m */; };
 		B3334B591E13FF6000710A7D /* NSString+JWAppendOtherStr.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334B581E13FF6000710A7D /* NSString+JWAppendOtherStr.m */; };
 		B3334B5C1E14007C00710A7D /* JRToast.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334B5B1E14007C00710A7D /* JRToast.m */; };
+		B3334B601E14A02600710A7D /* JWNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334B5F1E14A02600710A7D /* JWNavigationViewController.m */; };
+		B3334B631E14A04200710A7D /* JWTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334B621E14A04200710A7D /* JWTabBarViewController.m */; };
+		B3334B671E14A06400710A7D /* JWBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334B651E14A06400710A7D /* JWBasicViewController.m */; };
+		B3334B681E14A06400710A7D /* JWBasicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3334B661E14A06400710A7D /* JWBasicViewController.xib */; };
+		B3334B6F1E14A09E00710A7D /* JWPersonCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334B6D1E14A09E00710A7D /* JWPersonCenterViewController.m */; };
+		B3334B701E14A09E00710A7D /* JWPersonCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3334B6E1E14A09E00710A7D /* JWPersonCenterViewController.xib */; };
+		B3334B741E14A0AF00710A7D /* JWLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334B721E14A0AF00710A7D /* JWLiveViewController.m */; };
+		B3334B751E14A0AF00710A7D /* JWLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3334B731E14A0AF00710A7D /* JWLiveViewController.xib */; };
+		B3334B791E14A0BC00710A7D /* JWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334B771E14A0BC00710A7D /* JWHomeViewController.m */; };
+		B3334B7A1E14A0BC00710A7D /* JWHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3334B781E14A0BC00710A7D /* JWHomeViewController.xib */; };
+		B3334B7F1E14A0F200710A7D /* JWLogionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3334B7D1E14A0F200710A7D /* JWLogionViewController.m */; };
+		B3334B801E14A0F200710A7D /* JWLogionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3334B7E1E14A0F200710A7D /* JWLogionViewController.xib */; };
+		B3334B821E14A4F200710A7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3334B811E14A4F200710A7D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,11 +140,6 @@
 		B33349EC1E13F98500710A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B33349EE1E13F98500710A7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B33349EF1E13F98500710A7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B33349F11E13F98500710A7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B33349F21E13F98500710A7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B33349F51E13F98500710A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B33349F71E13F98500710A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B33349FA1E13F98500710A7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B33349FC1E13F98500710A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3334A011E13F98500710A7D /* JWLiveShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWLiveShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3334A051E13F98500710A7D /* JWLiveShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWLiveShowTests.m; sourceTree = "<group>"; };
@@ -335,6 +339,26 @@
 		B3334B581E13FF6000710A7D /* NSString+JWAppendOtherStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JWAppendOtherStr.m"; sourceTree = "<group>"; };
 		B3334B5A1E14007C00710A7D /* JRToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRToast.h; sourceTree = "<group>"; };
 		B3334B5B1E14007C00710A7D /* JRToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRToast.m; sourceTree = "<group>"; };
+		B3334B5E1E14A02600710A7D /* JWNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWNavigationViewController.h; sourceTree = "<group>"; };
+		B3334B5F1E14A02600710A7D /* JWNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWNavigationViewController.m; sourceTree = "<group>"; };
+		B3334B611E14A04200710A7D /* JWTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWTabBarViewController.h; sourceTree = "<group>"; };
+		B3334B621E14A04200710A7D /* JWTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWTabBarViewController.m; sourceTree = "<group>"; };
+		B3334B641E14A06400710A7D /* JWBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWBasicViewController.h; sourceTree = "<group>"; };
+		B3334B651E14A06400710A7D /* JWBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWBasicViewController.m; sourceTree = "<group>"; };
+		B3334B661E14A06400710A7D /* JWBasicViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWBasicViewController.xib; sourceTree = "<group>"; };
+		B3334B6C1E14A09E00710A7D /* JWPersonCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWPersonCenterViewController.h; sourceTree = "<group>"; };
+		B3334B6D1E14A09E00710A7D /* JWPersonCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWPersonCenterViewController.m; sourceTree = "<group>"; };
+		B3334B6E1E14A09E00710A7D /* JWPersonCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWPersonCenterViewController.xib; sourceTree = "<group>"; };
+		B3334B711E14A0AF00710A7D /* JWLiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWLiveViewController.h; sourceTree = "<group>"; };
+		B3334B721E14A0AF00710A7D /* JWLiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWLiveViewController.m; sourceTree = "<group>"; };
+		B3334B731E14A0AF00710A7D /* JWLiveViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWLiveViewController.xib; sourceTree = "<group>"; };
+		B3334B761E14A0BC00710A7D /* JWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWHomeViewController.h; sourceTree = "<group>"; };
+		B3334B771E14A0BC00710A7D /* JWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWHomeViewController.m; sourceTree = "<group>"; };
+		B3334B781E14A0BC00710A7D /* JWHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWHomeViewController.xib; sourceTree = "<group>"; };
+		B3334B7C1E14A0F200710A7D /* JWLogionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWLogionViewController.h; sourceTree = "<group>"; };
+		B3334B7D1E14A0F200710A7D /* JWLogionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWLogionViewController.m; sourceTree = "<group>"; };
+		B3334B7E1E14A0F200710A7D /* JWLogionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JWLogionViewController.xib; sourceTree = "<group>"; };
+		B3334B811E14A4F200710A7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -385,11 +409,12 @@
 		B33349EA1E13F98500710A7D /* JWLiveShow */ = {
 			isa = PBXGroup;
 			children = (
+				B3334B7B1E14A0DE00710A7D /* Logion */,
+				B3334B6B1E14A08600710A7D /* PersonCenter */,
+				B3334B6A1E14A07A00710A7D /* Live */,
+				B3334B691E14A06C00710A7D /* Home */,
+				B3334B5D1E149FC700710A7D /* Main */,
 				B3334A221E13F9C200710A7D /* FrameWork */,
-				B33349F11E13F98500710A7D /* ViewController.h */,
-				B33349F21E13F98500710A7D /* ViewController.m */,
-				B33349F41E13F98500710A7D /* Main.storyboard */,
-				B33349F91E13F98500710A7D /* LaunchScreen.storyboard */,
 				B33349EB1E13F98500710A7D /* Supporting Files */,
 			);
 			path = JWLiveShow;
@@ -398,9 +423,9 @@
 		B33349EB1E13F98500710A7D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B3334B811E14A4F200710A7D /* Assets.xcassets */,
 				B3334B251E13FDB500710A7D /* UserSession.h */,
 				B3334B261E13FDB500710A7D /* UserSession.m */,
-				B33349F71E13F98500710A7D /* Assets.xcassets */,
 				B33349FC1E13F98500710A7D /* Info.plist */,
 				B33349EE1E13F98500710A7D /* AppDelegate.h */,
 				B33349EF1E13F98500710A7D /* AppDelegate.m */,
@@ -848,6 +873,60 @@
 			path = NSString;
 			sourceTree = "<group>";
 		};
+		B3334B5D1E149FC700710A7D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B3334B5E1E14A02600710A7D /* JWNavigationViewController.h */,
+				B3334B5F1E14A02600710A7D /* JWNavigationViewController.m */,
+				B3334B611E14A04200710A7D /* JWTabBarViewController.h */,
+				B3334B621E14A04200710A7D /* JWTabBarViewController.m */,
+				B3334B641E14A06400710A7D /* JWBasicViewController.h */,
+				B3334B651E14A06400710A7D /* JWBasicViewController.m */,
+				B3334B661E14A06400710A7D /* JWBasicViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B3334B691E14A06C00710A7D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B3334B761E14A0BC00710A7D /* JWHomeViewController.h */,
+				B3334B771E14A0BC00710A7D /* JWHomeViewController.m */,
+				B3334B781E14A0BC00710A7D /* JWHomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B3334B6A1E14A07A00710A7D /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				B3334B711E14A0AF00710A7D /* JWLiveViewController.h */,
+				B3334B721E14A0AF00710A7D /* JWLiveViewController.m */,
+				B3334B731E14A0AF00710A7D /* JWLiveViewController.xib */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		B3334B6B1E14A08600710A7D /* PersonCenter */ = {
+			isa = PBXGroup;
+			children = (
+				B3334B6C1E14A09E00710A7D /* JWPersonCenterViewController.h */,
+				B3334B6D1E14A09E00710A7D /* JWPersonCenterViewController.m */,
+				B3334B6E1E14A09E00710A7D /* JWPersonCenterViewController.xib */,
+			);
+			path = PersonCenter;
+			sourceTree = "<group>";
+		};
+		B3334B7B1E14A0DE00710A7D /* Logion */ = {
+			isa = PBXGroup;
+			children = (
+				B3334B7C1E14A0F200710A7D /* JWLogionViewController.h */,
+				B3334B7D1E14A0F200710A7D /* JWLogionViewController.m */,
+				B3334B7E1E14A0F200710A7D /* JWLogionViewController.xib */,
+			);
+			path = Logion;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -910,6 +989,7 @@
 		B33349E01E13F98500710A7D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JW;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Wei Jiang";
 				TargetAttributes = {
@@ -957,11 +1037,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B33349FB1E13F98500710A7D /* LaunchScreen.storyboard in Resources */,
-				B33349F81E13F98500710A7D /* Assets.xcassets in Resources */,
+				B3334B7A1E14A0BC00710A7D /* JWHomeViewController.xib in Resources */,
+				B3334B751E14A0AF00710A7D /* JWLiveViewController.xib in Resources */,
+				B3334B801E14A0F200710A7D /* JWLogionViewController.xib in Resources */,
+				B3334B701E14A09E00710A7D /* JWPersonCenterViewController.xib in Resources */,
 				B3334AFB1E13FA7A00710A7D /* MJRefresh.bundle in Resources */,
+				B3334B681E14A06400710A7D /* JWBasicViewController.xib in Resources */,
 				B3334AD81E13FA7A00710A7D /* LICENSE in Resources */,
-				B33349F61E13F98500710A7D /* Main.storyboard in Resources */,
+				B3334B821E14A4F200710A7D /* Assets.xcassets in Resources */,
 				B3334AE41E13FA7A00710A7D /* 37x-Checkmark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -987,6 +1070,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3334B791E14A0BC00710A7D /* JWHomeViewController.m in Sources */,
 				B3334AFE1E13FA7A00710A7D /* UIScrollView+MJExtension.m in Sources */,
 				B3334B081E13FA7A00710A7D /* SDWebImageManager.m in Sources */,
 				B3334B4B1E13FE8600710A7D /* NSDictionary+Attributes.m in Sources */,
@@ -998,7 +1082,6 @@
 				B3334AE81E13FA7A00710A7D /* MJRefreshBackFooter.m in Sources */,
 				B3334B0C1E13FA7A00710A7D /* UIImage+MultiFormat.m in Sources */,
 				B3334A501E13FA6D00710A7D /* AFNetworkReachabilityManager.m in Sources */,
-				B33349F31E13F98500710A7D /* ViewController.m in Sources */,
 				B3334B1A1E13FA9300710A7D /* UITableView+FDIndexPathHeightCache.m in Sources */,
 				B3334AF91E13FA7A00710A7D /* MJDIYBackFooter.m in Sources */,
 				B3334AEC1E13FA7A00710A7D /* MJRefreshAutoGifFooter.m in Sources */,
@@ -1018,8 +1101,11 @@
 				B3334A4F1E13FA6D00710A7D /* AFHTTPSessionManager.m in Sources */,
 				B3334AFA1E13FA7A00710A7D /* MJDIYHeader.m in Sources */,
 				B3334B0A1E13FA7A00710A7D /* UIButton+WebCache.m in Sources */,
+				B3334B671E14A06400710A7D /* JWBasicViewController.m in Sources */,
+				B3334B741E14A0AF00710A7D /* JWLiveViewController.m in Sources */,
 				B3334B471E13FE5D00710A7D /* YYClassInfo.m in Sources */,
 				B3334AFF1E13FA7A00710A7D /* UIScrollView+MJRefresh.m in Sources */,
+				B3334B601E14A02600710A7D /* JWNavigationViewController.m in Sources */,
 				B3334B0F1E13FA7A00710A7D /* UIImageView+WebCache.m in Sources */,
 				B3334A531E13FA6D00710A7D /* AFURLRequestSerialization.m in Sources */,
 				B3334AF01E13FA7A00710A7D /* MJRefreshBackNormalFooter.m in Sources */,
@@ -1027,6 +1113,7 @@
 				B3334AF31E13FA7A00710A7D /* MJRefreshNormalHeader.m in Sources */,
 				B3334B461E13FE5D00710A7D /* NSObject+YYModel.m in Sources */,
 				B3334A311E13FA5900710A7D /* JWThirdTools.m in Sources */,
+				B3334B631E14A04200710A7D /* JWTabBarViewController.m in Sources */,
 				B3334B0D1E13FA7A00710A7D /* UIImage+WebP.m in Sources */,
 				B3334B1D1E13FA9300710A7D /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
 				B3334B331E13FE2A00710A7D /* UIColor+HexString.m in Sources */,
@@ -1059,12 +1146,14 @@
 				B3334A381E13FA6200710A7D /* NSDictionary+Log.m in Sources */,
 				B3334B521E13FEED00710A7D /* UIImage+JWImageReSize.m in Sources */,
 				B3334A541E13FA6D00710A7D /* AFURLResponseSerialization.m in Sources */,
+				B3334B7F1E14A0F200710A7D /* JWLogionViewController.m in Sources */,
 				B3334A261E13F9DF00710A7D /* JWTools.m in Sources */,
 				B3334B2B1E13FE0000710A7D /* YJSegmentedControl.m in Sources */,
 				B3334ADC1E13FA7A00710A7D /* MASLayoutConstraint.m in Sources */,
 				B3334A371E13FA6200710A7D /* NSArray+Log.m in Sources */,
 				B3334AEB1E13FA7A00710A7D /* MJRefreshHeader.m in Sources */,
 				B3334AF41E13FA7A00710A7D /* MJRefreshStateHeader.m in Sources */,
+				B3334B6F1E14A09E00710A7D /* JWPersonCenterViewController.m in Sources */,
 				B3334B031E13FA7A00710A7D /* SDImageCache.m in Sources */,
 				B3334B5C1E14007C00710A7D /* JRToast.m in Sources */,
 				B3334B4F1E13FECA00710A7D /* UIImage+imageColor.m in Sources */,
@@ -1112,25 +1201,6 @@
 			targetProxy = B3334A0D1E13F98500710A7D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B33349F41E13F98500710A7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B33349F51E13F98500710A7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B33349F91E13F98500710A7D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B33349FA1E13F98500710A7D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B3334A131E13F98500710A7D /* Debug */ = {
@@ -1227,12 +1297,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = CL7JKSS9Z7;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JWLiveShow/JWLiveShowPrefixHeader.pch";
 				INFOPLIST_FILE = JWLiveShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.duruikeji.JWLiveShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1240,12 +1313,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = CL7JKSS9Z7;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JWLiveShow/JWLiveShowPrefixHeader.pch";
 				INFOPLIST_FILE = JWLiveShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.duruikeji.JWLiveShow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -14,7 +14,7 @@
 @implementation UserSession
 static UserSession * user=nil;
 
-+(UserSession*)shareUserSession{
++ (UserSession*)shareUserSession{
     if (!user) {
         static dispatch_once_t onceToken;
         dispatch_once(&onceToken, ^{
@@ -30,7 +30,7 @@ static UserSession * user=nil;
 }
 
 
-+(void)clearUser{
++ (void)clearUser{
     [UserSession saveUserLoginWithAccount:@"" withPassword:@""];
     user = nil;
     user=[[UserSession alloc]init];

@@ -29,8 +29,8 @@
 @property(nonatomic,assign)BOOL isLogin;   //是否登录
 
 
-+(UserSession*)shareUserSession;  //创建单例
-+(void)clearUser;   //退出登录 删除数据
++ (UserSession*)shareUserSession;  //创建单例
++ (void)clearUser;   //退出登录 删除数据
 
 + (void)saveUserLoginWithAccount:(NSString *)account withPassword:(NSString *)password;  //save login data
 
