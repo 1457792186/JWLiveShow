@@ -37,16 +37,16 @@
 }
 
 -(void)addChildVC:(UIViewController*)vc withTitle:(NSString*)title withImage:(NSString*)imageName withSelectedImage:(NSString*)selectedImageName{
-    vc.tabBarItem.title=title;
-    vc.title=title;
-    vc.tabBarItem.image=[UIImage imageNamed:imageName];
-    vc.tabBarItem.selectedImage=[UIImage imageNamed:selectedImageName];
+    vc.tabBarItem.title = title;
+    vc.title = title;
+    vc.tabBarItem.image = [UIImage imageNamed:imageName];
+    vc.tabBarItem.selectedImage = [UIImage imageNamed:selectedImageName];
     if ([vc isKindOfClass:[JWLiveViewController class]]) {
         vc.tabBarItem.image = [[UIImage imageNamed:selectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
         vc.tabBarItem.selectedImage = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-        [vc.tabBarItem setImageInsets:UIEdgeInsetsMake(-8, 0, 8, 0)];//top = - bottom
+//        [vc.tabBarItem setImageInsets:UIEdgeInsetsMake(-12, 0, 12, 0)];//top = - bottom
     }
-    JWNavigationViewController*navi=[[JWNavigationViewController alloc]initWithRootViewController:vc];
+    JWNavigationViewController * navi =[[JWNavigationViewController alloc]initWithRootViewController:vc];
     [self addChildViewController:navi];
     
 }

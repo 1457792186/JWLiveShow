@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIScrollView+JWGifRefresh.h"
+#import "UIBarButtonItem+SettingCustom.h"
+#import "UITableView+FDTemplateLayoutCell.h"
+#import "JWTools.h"
+#import "JWHttpAddress.h"
+#import "JWHttpObject.h"
 
 @interface JWBasicViewController : UIViewController
+
+- (void)showHUDWithStr:(NSString *)showHud withSuccess:(BOOL)isSuccess;
+- (void)backBarAction;
+
 
 @end
